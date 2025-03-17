@@ -1,0 +1,60 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  background: url(landscape2.webp) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  color: #ffb3e0;
+  text-transform: uppercase;
+  text-shadow: 
+    -2px -2px 0 #000, 
+     2px -2px 0 #000, 
+    -2px  2px 0 #000, 
+     2px  2px 0 #000;
+}
+
+.buffer {
+  height:5em;
+}
+
+.btn-primary {
+    font-family: "Tiny5", sans-serif;
+    font-size: 1.2rem;
+    background-color: #ffb3e0;
+    color: black;
+    border: 4px solid black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 4px 4px black; 
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.btn-primary:hover {
+    background-color: #ffb3e0;
+    color: black;
+    border: 4px solid black;
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px black;
+}
+
+.btn-primary:active {
+    background-color: #e07bc0 !important; /* Etwas dunkleres Pink beim Klicken */
+    color: black !important;
+    border: 4px solid black !important;
+    transform: translate(3px, 3px); /* Noch tiefer einsinken */
+    box-shadow: 1px 1px black; /* Schatten fast weg für "gedrückt"-Effekt */
+}
+
+
+
+
